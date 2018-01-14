@@ -10,6 +10,7 @@ namespace ConsoleApp_DisemvowelTrolls
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
