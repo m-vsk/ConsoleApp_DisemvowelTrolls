@@ -11,7 +11,7 @@ namespace ConsoleApp_DisemvowelTrolls
     {
         public static string Disemvowel(string str)
         {
-            return Regex.Replace(str, "[aeiouAEIOU]", "");
+            return Regex.Replace(str, "[aeiou]", "", RegexOptions.IgnoreCase);
         }
 
         public static string Disemvowel2(string str)
